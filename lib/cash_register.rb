@@ -25,10 +25,4 @@ class CashRegister
     end
   end
   
-  def items
-    #items  = []
-    items = (items || [] ) << name
-   
-    #items << name
-  end
 end
