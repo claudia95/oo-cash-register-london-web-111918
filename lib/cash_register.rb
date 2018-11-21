@@ -12,7 +12,8 @@ class CashRegister
   end
   
   def add_item(name, price)
-    quanitity = 0 
+    quanitity = 1 
+    
     
   end
     
