@@ -33,7 +33,7 @@ class CashRegister
     @items_array
   end
   
-  def void_last_transanction
+  def void_last_transaction
     @total -= @price
   end
   
