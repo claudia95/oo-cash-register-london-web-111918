@@ -25,8 +25,8 @@ class CashRegister
     end
   end
   
-  def items
+  def items(name)
     items = []
-    items << name
+    items << @name
   end
 end
