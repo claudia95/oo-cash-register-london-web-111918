@@ -6,7 +6,6 @@ class CashRegister
       @total = 0
       @discount = staff_discount
       @items_array = []
-      @last_transaction = []
   end
   
   def total
@@ -15,6 +14,7 @@ class CashRegister
   
   def add_item(name, price, quantity = 1)
     @name = name
+    @price = price
     @total +=  price * quantity 
     quantity.times{items_array << name}
  
